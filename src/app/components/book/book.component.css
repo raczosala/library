@@ -1,0 +1,18 @@
+:host md-list-item {
+  border-bottom: 1px solid #f1f1f1;
+  cursor: pointer;
+}
+
+:host .selected {
+  background-color: #dbdbdb;
+}
+
+:host h2 {
+  text-transform: uppercase;
+}
+
+:host .meta {
+  color: rgba(0, 0, 0, 0.54);
+  font-size: 14px;
+  margin-bottom: 5px;
+}

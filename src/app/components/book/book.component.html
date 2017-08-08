@@ -1,0 +1,5 @@
+<md-list-item (click)="handleClick()" [class.selected]="selected">
+  <h2 md-line>{{book.title}}</h2>
+  <p md-line class="meta">By {{book.author.name}} - Published on {{book.publishedYear | date:'shortDate'}}</p>
+  <p md-line>{{book.description}}</p>
+</md-list-item>
